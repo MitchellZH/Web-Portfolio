@@ -616,14 +616,14 @@ export default function Portfolio() {
             >
               <div className="absolute -top-10 -left-10 w-40 h-40 bg-[var(--orange)] rounded-full opacity-20 blur-2xl"></div>
               <div className="absolute -bottom-10 -right-10 w-40 h-40 bg-[var(--light-blue)] rounded-full opacity-30 blur-2xl"></div>
-              <div className="bg-[var(--light-tan)] rounded-2xl relative z-10">
+              <div className="bg-[var(--light-tan)] rounded-2xl relative z-10 w-3/4 mx-auto">
                 <Image
                   src="/me.jpg"
                   alt="About Me"
                   layout="responsive"
                   className="rounded-2xl"
-                  width={300}
-                  height={300}
+                  width={225}
+                  height={225}
                 />
               </div>
             </motion.div>
