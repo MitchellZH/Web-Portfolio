@@ -392,6 +392,24 @@ export default function Portfolio() {
                 githubUrl: "https://github.com/MitchellZH/RecipeRover",
                 liveUrl: "https://reciperover.netlify.app/",
               },
+              {
+                image: "/wallpaper-manager-thumbnail.png",
+                title: "Wallpaper Manager",
+                description:
+                  "This app allows users to browse, manage, and organize their wallpaper collection with ease.",
+                tags: ["React", "Next.js", "TypeScript", "Tailwind CSS"],
+                githubUrl: "https://github.com/MitchellZH/wallpaper-manager",
+                liveUrl: "https://back-drop.netlify.app/",
+              },
+              {
+                image: "/portfolio-thumbnail.png",
+                title: "Software Developer Portfolio",
+                description:
+                  "This app showcases my work as a software developer, including projects, skills, and experience.",
+                tags: ["React", "Next.js", "TypeScript", "Tailwind CSS"],
+                githubUrl: "https://github.com/MitchellZH/Web-Portfolio",
+                liveUrl: "https://mitchells-portfolio.netlify.app/",
+              },
             ].map((project, index) => (
               <motion.div
                 key={index}

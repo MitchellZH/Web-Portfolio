@@ -346,7 +346,6 @@ body {
   box-shadow: 0 10px 25px rgba(255, 165, 2, 0.15) !important;
 }
 
-/* Button Animation Effects */
 .btn-animated {
   position: relative;
   overflow: hidden;
@@ -359,7 +358,7 @@ body {
 }
 
 .btn-animated::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: -100%;
@@ -403,7 +402,7 @@ body {
 }
 
 .btn-secondary-animated::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: -100%;
@@ -485,7 +484,8 @@ body {
 
 /* Floating animation for buttons */
 @keyframes float {
-  0%, 100% {
+  0%,
+  100% {
     transform: translateY(0);
   }
   50% {
@@ -504,7 +504,7 @@ body {
 }
 
 .btn-ripple::after {
-  content: '';
+  content: "";
   position: absolute;
   top: 50%;
   left: 50%;
